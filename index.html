@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+
+    <link href="./style.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+</head>
+<body id="bootstrap-overrides">
+    
+    <!-- Navigation Bar -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">SHION HOUSE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li> -->
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Slider section -->
+
+    <section>
+        <div class="contain">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" style="background-image: url(./images/fashion1.jpg);">
+                    <div class="carousel-caption d-none d-md-block" >
+                      <h1>FASHION <br/> CHANGING <br/> ALWAYS</h1>
+                       <button class="btn btn-md btn-success">Shop Now</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item" style="background-image: url(./images/fashion2.jpg); background-position:bottom;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>FASHION <br/>CHANGING <br/> ALWAYS</h1>
+                        <button class="btn btn-md btn-success">Shop Now</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item" style="background-image: url(./images/fashion3.jpg);">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>FASHION <br/> CHANGING <br/> ALWAYS</h1>
+                        <button class="btn btn-md btn-success">Shop Now</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+<br/>
+<!-- Products section -->
+    <section>
+        <div class="row products">
+          <div class="col-12 col-md-3 children"> <img src="./images/product1.jpg" alt="product1" width="100%"/> </div>
+          <div class="col-12 col-md-3 children"> <img src="./images/product2.jpg" alt="product2" width="100%"/> </div>
+          <div class="col-12 col-md-3 children"> <img src="./images/product3.jpg" alt="product3" width="100%"/> </div>
+          <div class="col-12 col-md-3 children"> <img src="./images/product4.jpg" alt="product4" width="100%"/> </div>
+        </div>
+    </section>
+
+<!-- New arrival section-->
+    <section>
+      <h2 id="arrival">NEW <br/> ARRIVALS</h2>
+    
+      <div class="row product">
+        
+        <div class="col-12 col-md-3">
+          <div class="card" style="width: 100%;">
+            <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/05/268776/1.jpg?2638" alt="Dresses">
+            <div class="card-body">
+              <h5 class="card-title">Dress</h5>
+              <p class="card-text">8,000 naira</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3">
+          <div class="card" style="width: 100%;">
+            <img src="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/46/790517/1.jpg?1235" alt="Dresses">
+            <div class="card-body">
+              <h5 class="card-title">Dress</h5>
+              <p class="card-text">5,000 naira</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3">
+          <div class="card" style="width: 100%;">
+            <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/06/3260331/1.jpg?1676" alt="Dresses">
+            <div class="card-body">
+              <h5 class="card-title">Dress</h5>
+              <p class="card-text">5,000 naira</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3">
+          <div class="card" style="width: 100%;">
+            <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/47/9940562/1.jpg?3775" alt="Dresses">
+            <div class="card-body">
+              <h5 class="card-title">Dress</h5>
+              <p class="card-text">15,000 naira</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  
+
+      <div class="row product">
+        
+        <div class="col-12 col-md-3">
+          <div class="card" style="width: 100%;">
+            <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/16/790517/1.jpg?1235" alt="Dresses">
+            <div class="card-body">
+              <h5 class="card-title">Dress</h5>
+              <p class="card-text">5,000 naira</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3">
+          <div class="card" style="width: 100%;">
+            <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/27/309417/1.jpg?7318" alt="Dresses">
+            <div class="card-body">
+              <h5 class="card-title">Dress</h5>
+              <p class="card-text">12,000 naira</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3">
+          <div class="card" style="width: 100%;">
+            <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/24/7298691/1.jpg?9202" alt="Dresses">
+            <div class="card-body">
+              <h5 class="card-title">Dress</h5>
+              <p class="card-text">5,000 naira</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-3">
+          <div class="card" style="width: 100%;">
+            <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/41/6321652/1.jpg?8899" alt="Dresses">
+            <div class="card-body">
+              <h5 class="card-title">Dress</h5>
+              <p class="card-text">5,000 naira</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--About section-->
+
+    <section>
+      <div class="row">
+        <div class="col-12 about">
+          <h2>COLLECTION HOUSES <br/> OUR FIRST EVER</h2>
+          <button class="btn btn-success btn-lg">About Us</button>
+        </div>
+      </div>
+    </section>
+
+<!-- <Two Columns section -->
+
+    <section>
+      <div class="row sides1">
+        <div class="col-12 col-md-6 sides">
+          <h2>Establish Facts By The <br/> Readable Content</h2>
+          <button class="btn btn-success btn-lg">Shop Now</button>
+        </div>
+
+        <div class="col-12 col-md-6 sides">
+          <h2>Establish Facts By The <br/> Readable Content</h2>
+          <button class="btn btn-success btn-lg">Shop Now</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
